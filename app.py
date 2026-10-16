@@ -73,7 +73,7 @@ elif st.session_state.step == 3:
 # ==========================================
 elif st.session_state.step == 4:
     st.subheader("5. คำถาม: วันเกิดแฟนเกิดวันที่เท่าไหร่")
-    bday_input = st.text_input("กรอกวันเกิดแฟน (เช่น 190649):")
+    bday_input = st.text_input("กรอกวันเกิดแฟน:")
     if st.button("ส่งคำตอบ"):
         if bday_input == "190649":
             st.session_state.step = 5
